@@ -20,8 +20,7 @@ from keras.models import Model
 from keras.models import Sequential
 from keras.models import load_model
 
-folder_path = "C:\\Users\\apurnaik\\OneDrive - Deloitte (O365D)\\Commback\\Projects\\Apps\\"
-model_path = 'C:\\Users\\apurnaik\\OneDrive - Deloitte (O365D)\\Commback\\Projects\\Apps\\ImageSimilarity\\'
+model_path = 'model/'
 
 @st.cache(allow_output_mutation=True)
 def load_vgg19():
