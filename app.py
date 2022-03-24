@@ -126,7 +126,7 @@ if similarity:
     st.write('Image Similarity: ', sim)
 
 interpret_score= st.checkbox('interpret score')
-if interpret_score and if similarity:
+if interpret_score and similarity:
     if sim >= 0.7:
         st.write('Images are fairly similar')
     else:
